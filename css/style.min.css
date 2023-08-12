@@ -1302,21 +1302,23 @@ svg,
 }
 @media (max-width: 1199px) {
   .header__nav {
-    background: #1f1927;
+    background: #1c1622;
     width: 100%;
-    padding: 180rem 0 40rem;
+    max-width: 260rem;
+    margin: 0;
+    padding: 140rem 0 40rem;
     display: block;
     position: fixed;
     top: 0;
+    right: 0;
     bottom: 0;
-    left: 0;
     transition: all 0.4s 0ms;
     transition-property: transform, visibility, opacity;
-    z-index: -1;
+    z-index: 2;
   }
   .header__nav:not(.is-show) {
     pointer-events: none;
-    transform: translateX(100vw);
+    transform: translateX(300rem) skewX(40deg);
     visibility: hidden;
     opacity: 0;
   }
@@ -1364,7 +1366,8 @@ svg,
 }
 @media (max-width: 1199px) {
   .header__nav-link {
-    padding: 10rem var(--gap);
+    padding: 6rem var(--gap);
+    font-size: var(--fs-3);
     justify-content: flex-end;
   }
 }
@@ -1424,6 +1427,19 @@ svg,
     align-self: center;
     flex-shrink: 0;
     position: relative;
+    z-index: 3;
+  }
+  .header__toggle:before {
+    background: linear-gradient(to bottom, #fb7389, #9f42ff);
+    height: 100%;
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 260rem;
+    left: 0;
+    opacity: 0.94;
+    transition: all 0.4s;
+    transition-property: transform, opacity, visibility;
   }
 }
 @media (max-width: 1199px) {
@@ -1454,6 +1470,12 @@ svg,
   }
   .header__toggle.is-active span:nth-child(3) {
     transform: translateY(50%) rotate(45deg);
+  }
+}
+@media (max-width: 1199px) {
+  .header__toggle:not(.is-active):before {
+    transform: translateX(-100vw) skewX(-40deg);
+    pointer-events: none;
   }
 }
 
