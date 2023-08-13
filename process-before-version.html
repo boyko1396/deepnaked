@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/style.min.css??=v=20230813231827">
-  <title>DeepNaked</title>
+  <title>Upload photo — DeepNaked</title>
 </head>
   <body>
     <div id="root" class="site site--theme-dark">
@@ -18,7 +18,7 @@
     <nav class="header__nav" role="navigation">
       <ul class="header__nav-list">
         <li class="header__nav-item">
-          <a href="#" class="header__nav-link is-active">Upload</a>
+          <a href="#" class="is-active header__nav-link">Upload</a>
         </li>
         <li class="header__nav-item">
           <a href="#" class="header__nav-link">Pricing</a>
@@ -46,276 +46,67 @@
   </div>
 </header>
       <main role="main" class="site__main">
-        <section class="hero">
-  <div class="container hero__container">
-    <div class="hero__content">
-      <div class="hero__content-brand">
-        <h1 class="hero__content-title">Welcome to <span class="visually-hidden">DeepNaked</span></h1>
-        <div class="hero__content-logo">
-          <picture><source srcset="images/logo-type-2.webp" type="image/webp"><img src="images/logo-type-2.png" alt="Welcome to DeepNaked"></picture>
+        <div class="layout">
+          <section class="process-layout">
+  <div class="container-fluid process-layout__container">
+    <h1 class="visually-hidden">Process</h1>
+    <div class="process-layout__inner">
+      <div class="process-layout__aside">
+        <div class="process-layout__aside-tabs tabs">
+          <nav class="tabs__nav">
+            <a href="process-before.html" class="is-active tabs__trigger">Before</a>
+            <a href="process-after.html" class="tabs__trigger">After</a>
+          </nav>
+          <div class="process-media">
+            <picture class="process-media__picture">
+              <img src="images/process-1.jpg">
+            </picture>
+          </div>
         </div>
       </div>
-      <p class="hero__content-description">The most powerful image deepfake AI ever created. See any girl clothless with the click of a&nbsp;button</p>
-      <div class="hero__content-upload">
-        <div class="upload-file">
-  <form action="#" class="upload-file__form">
-    <input type="file" name="upload" class="upload-file__input">
-    <div class="upload-file__inner">
-      <span class="upload-file__bg"></span>
-      <div class="upload-file__content">
-        <div class="upload-file__content-title">Drop or paste image here</div>
-        <div class="upload-file__content-format">JPG, PNG, WEBP</div>
-        <button type="button" class="btn btn--theme-accent-fill btn--size-sm upload-file__content-btn">
-          <span class="btn__inner">
-            <span class="btn__title">Browse</span>
-          </span>
-        </button>
-      </div>
-    </div>
-  </form>
-</div>
-      </div>
-    </div>
-    <div class="hero__picture">
-      <picture><source srcset="images/hero-img.webp" type="image/webp"><img src="images/hero-img.png" alt="The most powerful image deepfake AI ever created. See any girl clothless with the click of a button"></picture>
-    </div>
-  </div>
-</section>
-        <section class="road-map">
-  <div class="container road-map__container">
-    <div class="road-map__inner">
-      <header class="section-header road-map__header">
-        <h2 class="u-section-title section-header__title"><span class="color-accent">Turn your photo</span> to nudified in 3 steps</h2>
-        <p class="color-gray section-header__subtitle u-section-subtitle">3 steps to achieve the result</p>
-      </header>
-      <ul class="road-map__list">
-        <li class="road-map__item">
-          <article class="road-map-card road-map__item-card">
-            <div class="road-map-card__inner">
-              <picture class="road-map-card__picture">
-                <img src="images/road-map-icon-1.svg" alt="Select image">
-              </picture>
-              <div class="road-map-card__content">
-                <h3 class="road-map-card__title">1. The first step</h3>
-                <div class="road-map-card__description">Select image</div>
+      <div class="process-layout__content">
+        <div class="process-layout__content-appeal">
+          <div class="process-layout__content-choose">
+            <h4 class="process-layout__content-choose-title">Choose the ai version:</h4>
+            <div class="group-checkbox process-layout__content-choose-radio">
+              <div class="group-checkbox__inner">
+                <div class="group-checkbox__item">
+                  <label class="u-radio u-radio--size-md u-radio--theme-accent">
+                    <input type="radio" name="version" class="u-radio__control" checked="checked" value="V1">
+                    <span class="u-radio__inner">
+                      <span class="u-radio__title">V1</span>
+                      <span class="u-radio__dot"></span>
+                    </span>
+                  </label>
+                </div>
+                <div class="group-checkbox__item">
+                  <label class="u-radio u-radio--size-md u-radio--theme-accent">
+                    <input type="radio" name="version" class="u-radio__control" value="V2">
+                    <span class="u-radio__inner">
+                      <span class="u-radio__title">V2</span>
+                      <span class="u-radio__dot"></span>
+                    </span>
+                  </label>
+                </div>
               </div>
             </div>
-          </article>
-        </li>
-        <li class="road-map__item">
-          <article class="road-map-card road-map__item-card">
-            <div class="road-map-card__inner">
-              <picture class="road-map-card__picture">
-                <img src="images/road-map-icon-2.svg" alt="Confirm and upload">
-              </picture>
-              <div class="road-map-card__content">
-                <h3 class="road-map-card__title">2. The second step</h3>
-                <div class="road-map-card__description">Confirm and upload</div>
-              </div>
-            </div>
-          </article>
-        </li>
-        <li class="road-map__item">
-          <article class="road-map-card road-map__item-card">
-            <div class="road-map-card__inner">
-              <picture class="road-map-card__picture">
-                <img src="images/road-map-icon-3.svg" alt="Receive your fake nudes">
-              </picture>
-              <div class="road-map-card__content">
-                <h3 class="road-map-card__title">3. The third step</h3>
-                <div class="road-map-card__description">Receive your fake nudes</div>
-              </div>
-            </div>
-          </article>
-        </li>
-      </ul>
-    </div>
-  </div>
-</section>
-        <section class="features-section">
-  <div class="container features-section__container">
-    <div class="features-section__inner">
-      <div class="features-section__picture-wrap">
-        <picture class="features-section__picture">
-          <img src="images/features-section-hero.png" alt="Genegates the most natural and authentic images">
-        </picture>
-      </div>
-      <div class="features-section__content">
-        <div class="features-section__description u-scrollbar">
-          <div class="features-section__description-inner">
-            <h2 class="color-accent features-section__description-title u-section-title">DeepNaked</h2>
-            <div class="content features-section__description-text">
-              <p>Genegates the most natural and authentic images.<br>It is equipped with the state of the art artificial intelligence<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur doloribus necessitatibus cupiditate repudiandae nesciunt vel neque facere, sapiente amet cumque obcaecati optio ad. Culpa nisi quae dicta facilis, doloribus ab.</p>
+            <p class="color-accent process-layout__content-choose-subtitle">Need help choosing?</p>
+            <a href="#" class="btn btn--theme-accent-fill btn--size-sm process-layout__content-choose-btn">
+              <span class="btn__inner">
+                <span class="btn__title">Start nudefying</span>
+              </span>
+            </a>
+            <div class="process-layout__content-choose-credits">There are <span class="color-red">0 credits</span> on your account</div>
+            <div class="process-layout__content-choose-tariff">
+              <a href="javascript:;" class="u-link" data-type="popup-payments-method">Choose a tariff ›</a>
             </div>
           </div>
         </div>
-        <ul class="features-section__list u-list-counter">
-          <li>Months of AI model training</li>
-          <li>Years of research</li>
-          <li>Millions of data</li>
-        </ul>
-        <button type="button" class="btn btn--theme-accent-fill btn--size-semi features-section__btn">
-          <span class="btn__inner">
-            <span class="btn__title">Upload and undress</span>
-          </span>
-        </button>
       </div>
     </div>
   </div>
 </section>
-        <div class="icons8-multiple-stars"></div>
-<section class="reviews-section">
-  <div class="container reviews-section__container">
-    <div class="reviews-section__inner">
-      <header class="section-header reviews-section__header">
-        <h2 class="u-section-title section-header__title"><span class="color-accent">User reviews</span> of our service</h2>
-        <p class="color-gray section-header__subtitle u-section-subtitle">More than 10 thousand customers</p>
-      </header>
-    </div>
-  </div>
-  <div class="reviews-section__slider">
-    <div class="js-reviews-slider-init reviews-section__slider-init">
-      <div class="swiper-wrapper reviews-section__slider-wrapper">
-        <div class="swiper-slide reviews-section__slider-slide">
-          <article class="reviews-section__card">
-            <header class="reviews-section__card-header">
-              <h3 class="reviews-section__card-header-name">Musa Janes</h3>
-              <div class="reviews-section__card-header-rating u-rating" style="--rating-value: 50%"></div>
-            </header>
-            <div class="reviews-section__card-text">I use deepnaked to view nude images of celebrities like Angelina Jolie and Taylor Swift, I am impressed by how natural the photos appear.</div>
-          </article>
         </div>
-        <div class="swiper-slide reviews-section__slider-slide">
-          <article class="reviews-section__card">
-            <header class="reviews-section__card-header">
-              <h3 class="reviews-section__card-header-name">Musa Janes</h3>
-              <div class="reviews-section__card-header-rating u-rating" style="--rating-value: 40%"></div>
-            </header>
-            <div class="reviews-section__card-text">I use deepnaked to view nude images of celebrities like Angelina Jolie and Taylor Swift, I am impressed by how natural the photos appear.</div>
-          </article>
-        </div>
-        <div class="swiper-slide reviews-section__slider-slide">
-          <article class="reviews-section__card">
-            <header class="reviews-section__card-header">
-              <h3 class="reviews-section__card-header-name">Musa Janes</h3>
-              <div class="reviews-section__card-header-rating u-rating" style="--rating-value: 100%"></div>
-            </header>
-            <div class="reviews-section__card-text">I use deepnaked to view nude images of celebrities like Angelina Jolie and Taylor Swift, I am impressed by how natural the photos appear.</div>
-          </article>
-        </div>
-        <div class="swiper-slide reviews-section__slider-slide">
-          <article class="reviews-section__card">
-            <header class="reviews-section__card-header">
-              <h3 class="reviews-section__card-header-name">Musa Janes</h3>
-              <div class="reviews-section__card-header-rating u-rating" style="--rating-value: 50%"></div>
-            </header>
-            <div class="reviews-section__card-text">I use deepnaked to view nude images of celebrities like Angelina Jolie and Taylor Swift, I am impressed by how natural the photos appear.</div>
-          </article>
-        </div>
-        <div class="swiper-slide reviews-section__slider-slide">
-          <article class="reviews-section__card">
-            <header class="reviews-section__card-header">
-              <h3 class="reviews-section__card-header-name">Musa Janes</h3>
-              <div class="reviews-section__card-header-rating u-rating" style="--rating-value: 20%"></div>
-            </header>
-            <div class="reviews-section__card-text">I use deepnaked to view nude images of celebrities like Angelina Jolie and Taylor Swift, I am impressed by how natural the photos appear.</div>
-          </article>
-        </div>
-        <div class="swiper-slide reviews-section__slider-slide">
-          <article class="reviews-section__card">
-            <header class="reviews-section__card-header">
-              <h3 class="reviews-section__card-header-name">Musa Janes</h3>
-              <div class="reviews-section__card-header-rating u-rating" style="--rating-value: 80%"></div>
-            </header>
-            <div class="reviews-section__card-text">I use deepnaked to view nude images of celebrities like Angelina Jolie and Taylor Swift, I am impressed by how natural the photos appear.</div>
-          </article>
-        </div>
-      </div>
-      <div class="swiper-button swiper-button-prev"></div>
-      <div class="swiper-button swiper-button-next"></div>
-    </div>
-    <div class="swiper-pagination js-reviews-slider-pagination"></div>
-  </div>
-</section>
-        <section class="example-result">
-  <div class="container example-result__container">
-    <div class="example-result__inner">
-      <header class="section-header example-result__header">
-        <h2 class="u-section-title section-header__title"><span class="color-accent">Examples</span> of photo processing</h2>
-        <p class="color-gray section-header__subtitle u-section-subtitle">The results of the work of artificial intelligence</p>
-      </header>
-    </div>
-  </div>
-  <div class="example-result__slider">
-    <div class="example-result__slider-init js-example-result-init">
-      <div class="swiper-wrapper example-result__slider-wrapper">
-        <div class="swiper-slide example-result__slider-slide">
-          <div class="example-result__card">
-            <picture class="example-result__card-picture">
-              <img src="images/example-result-1.jpg">
-            </picture>
-            <picture class="example-result__card-picture">
-              <img src="images/example-result-1.jpg">
-            </picture>
-          </div>
-        </div>
-        <div class="swiper-slide example-result__slider-slide">
-          <div class="example-result__card">
-            <picture class="example-result__card-picture">
-              <img src="images/example-result-1.jpg">
-            </picture>
-            <picture class="example-result__card-picture">
-              <img src="images/example-result-1.jpg">
-            </picture>
-          </div>
-        </div>
-        <div class="swiper-slide example-result__slider-slide">
-          <div class="example-result__card">
-            <picture class="example-result__card-picture">
-              <img src="images/example-result-1.jpg">
-            </picture>
-            <picture class="example-result__card-picture">
-              <img src="images/example-result-1.jpg">
-            </picture>
-          </div>
-        </div>
-        <div class="swiper-slide example-result__slider-slide">
-          <div class="example-result__card">
-            <picture class="example-result__card-picture">
-              <img src="images/example-result-1.jpg">
-            </picture>
-            <picture class="example-result__card-picture">
-              <img src="images/example-result-1.jpg">
-            </picture>
-          </div>
-        </div>
-        <div class="swiper-slide example-result__slider-slide">
-          <div class="example-result__card">
-            <picture class="example-result__card-picture">
-              <img src="images/example-result-1.jpg">
-            </picture>
-            <picture class="example-result__card-picture">
-              <img src="images/example-result-1.jpg">
-            </picture>
-          </div>
-        </div>
-        <div class="swiper-slide example-result__slider-slide">
-          <div class="example-result__card">
-            <picture class="example-result__card-picture">
-              <img src="images/example-result-1.jpg">
-            </picture>
-            <picture class="example-result__card-picture">
-              <img src="images/example-result-1.jpg">
-            </picture>
-          </div>
-        </div>
-      </div>
-      <div class="swiper-button swiper-button-prev"></div>
-      <div class="swiper-button swiper-button-next"></div>
-    </div>
-    <div class="swiper-pagination js-example-result-pagination"></div>
-  </div>
-</section>
       </main>
       <footer class="footer site__footer">
   <div class="container footer__container">
@@ -450,7 +241,7 @@
         <div class="popup__form-actions">
           Forgot your password? <a href="#">Recover ›</a>
         </div>
-        <button type="submit" class="btn btn--theme-accent-fill btn--size-md popup__form-btn">
+        <button type="submit" class="btn btn--size-md btn--theme-accent-fill popup__form-btn">
           <span class="btn__inner">
             <span class="btn__title">Log in to your account</span>
           </span>
@@ -504,7 +295,7 @@
           </label>
         </div>
         <div class="popup__form-captcha u-captcha"></div>
-        <button type="submit" class="btn btn--theme-accent-fill btn--size-md popup__form-btn">
+        <button type="submit" class="btn btn--size-md btn--theme-accent-fill popup__form-btn">
           <span class="btn__inner">
             <span class="btn__title">Register an account</span>
           </span>
@@ -547,7 +338,7 @@
           </label>
         </div>
         <footer class="popup__payment-method-footer">
-          <button type="submit" class="btn btn--theme-accent-fill btn--size-md popup__payment-method-btn">
+          <button type="submit" class="btn btn--size-md btn--theme-accent-fill popup__payment-method-btn">
             <span class="btn__inner">
               <span class="btn__title">purchase</span>
             </span>

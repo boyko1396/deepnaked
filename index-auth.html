@@ -27,16 +27,28 @@
           <a href="#" class="header__nav-link">More</a>
         </li>
       </ul>
+      <div class="header__profile d-xs-block">
+        <div class="header__profile-credits">
+          Credits: <strong class="color-accent header__profile-credits-count">500</strong>
+        </div>
+        <a href="#" class="header__profile-btn-exit">
+          <svg class="u-icon">
+            <use xlink:href="images/icons/icons.svg#exit"></use>
+          </svg>
+        </a>
+      </div>
     </nav>
     <div class="header__actions">
-      <button class="btn btn--size-md btn--theme-accent-border header__actions-sign-up" data-type="popup-login" type="button">
-        <span class="btn__inner">
-          <span class="btn__icon btn__icon--dir-left">
-            <img src="images/icons/avatar-gradient.svg" class="u-icon">
-          </span>
-          <span class="btn__title">Sign in</span>
-        </span>
-      </button>
+      <div class="header__profile d-xs-none">
+        <div class="header__profile-credits">
+          Credits: <strong class="color-accent header__profile-credits-count">500</strong>
+        </div>
+        <a href="#" class="header__profile-btn-exit">
+          <svg class="u-icon">
+            <use xlink:href="images/icons/icons.svg#exit"></use>
+          </svg>
+        </a>
+      </div>
     </div>
     <button type="button" class="header__toggle js-header-toggle">
       <span></span>
